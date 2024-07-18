@@ -1,7 +1,10 @@
 def mijn_functie1(a):
-    return a**
+    return a * a
 
-totaal = mijn_functie1(2)
-print(mijn_functie1)
+def mijn_functie2(b,c):
+    return b + c, b - c, b * c, b / c
+
+
 
     
+
