@@ -39,11 +39,16 @@ print(meervoudig([10,5,3,2,1,2,9]))
 
 def combinatie(invoer_lijst_2):
     meervoudig(invoer_lijst_2)
-    korte_lijst = [1,2]
-    return korte_lijst
+    korte_lijst = meervoudig(invoer_lijst_2)
+    b, c = korte_lijst[0], korte_lijst[1]
+    return mijn_functie2(b,c)
 
-mijn_functie2(korte_lijst)
-return combinatie
+test = [1, 2, 3, 4, 5, 30]
+print(combinatie(test))
+
+
+
+
 
 
     
